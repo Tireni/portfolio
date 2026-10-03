@@ -1,0 +1,71 @@
+{
+  "name": "Enoch Benson",
+  "origin": "https://tireni.github.io/portfolio",
+  "email": "enochbenson61@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/enoch-benson/",
+  "github": "https://github.com/Tireni",
+  "resume": "Enoch-Benson-Resume.pdf",
+  "projects": [
+    {
+      "slug": "boostar", "name": "BOOSTAR", "subtitle": "Emergency communication, connected.",
+      "category": "Public safety · Mobile & systems", "role": "Mobile & full-stack development contributions", "url": "https://boostar.ng", "image": "boostar.png", "imageAlt": "Public BOOSTAR website introducing emergency reporting and authorised monitoring", "color": "blue",
+      "summary": "Public safety technology connecting emergency alerts, location information and authorised response workflows.",
+      "overview": "BOOSTAR (Boost Alert and Response) helps the public reach emergency numbers, share distress information and report safety concerns. Its public app is complemented by BOOSTAR-M, a controlled monitoring platform for authorised personnel.",
+      "problem": "In an emergency, people can struggle to find the right response channel or explain their location. Reports also need a clear path from the person raising an alert to the team reviewing it.",
+      "contribution": "My role included mobile application development and work across alert, location, reporting and response workflows. My professional work also covered authentication, notifications, dashboards, monitoring, backend/API functionality, testing, debugging and continuous upgrades.",
+      "work": ["Emergency and panic alert functionality", "Location sharing and user reporting", "Authentication and notifications", "Dashboards, monitoring and response workflows", "Backend/API functionality, testing and ongoing upgrades"],
+      "features": ["Access to emergency communication channels", "Public safety and distress reporting", "Location information for response", "Authorised monitoring through BOOSTAR-M"],
+      "challenge": "The system connects public-facing reporting with controlled monitoring. Keeping those workflows understandable and reliable is a central technical concern.",
+      "approach": "My work spans the mobile interface and supporting system workflows, with testing, debugging and continued upgrades as part of delivery.",
+      "status": "Professional project with a public website and ongoing system upgrades. This case study describes my areas of contribution without attributing the entire platform to me."
+    },
+    {
+      "slug": "nfec", "name": "NFEC", "subtitle": "Fire safety, made traceable.", "category": "Fire safety · Registration & verification", "role": "Software & systems development contributions", "url": "https://fire.ng", "image": "nfec.png", "imageAlt": "NFEC public website showing its fire extinguisher registration and verification programme", "color": "yellow",
+      "summary": "Registration, verification and administrative software supporting fire extinguisher records and compliance workflows.",
+      "overview": "Nigeria Fire Extinguisher Control (NFEC) brings together technology infrastructure, validation tools, vendor records and data capture for fire extinguisher registration and tracking.",
+      "problem": "Fire extinguisher records need to be captured consistently, verified and made useful to the teams handling registration, inspections and compliance tracking.",
+      "contribution": "My role was on the software and technology side. My work included registration, QR/code verification, vendor records, compliance tracking, inspections, data capture, administration, dashboards and database/system functionality.",
+      "work": ["Fire extinguisher registration and data capture", "QR/code verification workflows", "Vendor records and compliance tracking", "Inspection and administrative workflows", "Dashboards and database/system functionality"],
+      "features": ["Extinguisher registration", "Code-based verification", "Vendor and inspection records", "Administrative dashboards and compliance tracking"],
+      "challenge": "Registration and verification depend on clear data capture and consistent records across related workflows.",
+      "approach": "My contributions focused on the software used to capture, manage, verify and review records. Policy and regulatory responsibilities remain with the relevant authorities.",
+      "status": "Professional software work associated with the public NFEC programme. No policy or regulatory function is claimed as my individual contribution."
+    },
+    {
+      "slug": "nalerts", "name": "N-Alerts", "subtitle": "A clearer path from report to response.", "category": "Public safety · Mobile application", "role": "Mobile App Developer", "url": "https://nalerts.com.ng", "image": "nalerts.jpeg", "imageAlt": "N-Alerts mobile public complaint screen with agency selection", "color": "red",
+      "summary": "Mobile reporting workflows within a public safety platform for emergency communication and coordinated response.",
+      "overview": "N-Alerts is a public safety and emergency reporting platform. Its public website describes a reporting and response ecosystem connecting citizens, communities and relevant agencies.",
+      "problem": "People need a practical way to submit safety concerns and emergency information, including location details, to the appropriate response channels.",
+      "contribution": "As a Mobile App Developer, my role included registration, emergency alert/reporting workflows, location-based functionality and security/emergency communication. I also worked on testing, feature improvements and maintenance.",
+      "work": ["Mobile registration workflows", "Emergency alert and reporting functionality", "Location-based application features", "Security and emergency communication", "Testing, feature improvements and maintenance"],
+      "features": ["Public reporting through a mobile interface", "Agency selection for public complaints", "Registration and emergency workflows", "Location-based reporting support"],
+      "challenge": "The mobile experience needs to make reporting understandable while supporting location and communication requirements.",
+      "approach": "My work focused on mobile application workflows, followed by testing, troubleshooting, maintenance and feature improvements.",
+      "status": "Professional project developed as part of my employment. The public website provides broader platform context; this case study focuses on my mobile work."
+    },
+    {
+      "slug": "nfdrc", "name": "NFDRC", "subtitle": "Making fire data useful.", "category": "Data systems · Reporting & administration", "role": "Backend & data systems contributions", "url": "https://nfdrc.ng", "image": "", "color": "green",
+      "summary": "Data repository, administration and reporting work for national fire data management.",
+      "overview": "The National Fire Data Repository Center (NFDRC) concerns national fire data collection, repository systems, data management, analytics and reporting. This description is based on the professional information I have provided.",
+      "problem": "Fire data needs structured collection, management and reporting to support the departments and agencies working with it.",
+      "contribution": "My role included work on national fire data collection, repository systems, data management, analytics, reporting, administrative systems and backend/database functionality supporting department and agency coordination.",
+      "work": ["Data collection and repository functionality", "Data management and reporting", "Analytics and administrative systems", "Backend/database functionality", "Workflows supporting department and agency coordination"],
+      "features": ["Fire data collection and management", "Repository and administrative workflows", "Analytics and reporting", "Department and agency coordination support"],
+      "challenge": "Data systems must make collected information manageable and useful to the teams responsible for reporting and administration.",
+      "approach": "My contributions covered backend/database functionality and the administrative and reporting workflows around the data.",
+      "status": "Professional project. The supplied public URL could not be independently verified during this portfolio build, so no additional architecture, functionality or outcomes are inferred. No matching public screenshot is included."
+    },
+    {
+      "slug": "bant", "name": "BANT", "subtitle": "A place for campus conversations.", "category": "Own product · Voice & community", "role": "Creator / Developer", "url": "https://bant-demo.vercel.app", "image": "", "color": "purple", "personal": true,
+      "summary": "A voice chat and social platform for university students. MVP — In Development.",
+      "overview": "BANT is my own product: a voice chat and social platform aimed at university students. The concept centres on joining topic-based voice rooms to talk, learn and connect with other students.",
+      "problem": "The product explores how students can find conversations and communities around campus life, shared interests and learning.",
+      "contribution": "I am creating and developing the BANT MVP. It is an ongoing product project, rather than a finished or launched service.",
+      "work": ["Developing the student-focused product concept", "Building and iterating on the MVP", "Exploring topic-based voice rooms and social interaction"],
+      "features": ["Planned topic-based voice rooms", "Campus community conversations", "Learning, casual conversation and rants", "Text chat and student social interaction as part of the concept"],
+      "challenge": "The current task is turning a student conversation concept into a usable MVP. Features remain subject to development and iteration.",
+      "approach": "Develop the MVP, test the experience and refine the product. The demo is a development preview, not evidence of a completed launch.",
+      "status": "MVP — In Development. No user, revenue, traction or launch figures are claimed."
+    }
+  ]
+}

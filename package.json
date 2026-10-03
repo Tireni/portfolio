@@ -1,0 +1,7 @@
+{
+  "name": "enoch-benson-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node scripts/build.mjs", "start": "python -m http.server 4173 --bind 127.0.0.1 --directory dist", "test": "python tests/check_site.py" }
+}
