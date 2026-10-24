@@ -74,11 +74,21 @@ try:
                     page.goto(f'{base}/{route}', wait_until='networkidle')
                 if route == 'index.html':
                     assert page.get_by_role('link', name='enochbenson61@gmail.com').count() == 1
-                    assert page.locator('.availability').first.inner_text() == 'Open to Remote Opportunities'
+                    assert page.locator('.availability').first.inner_text() == 'Available for Freelance & Remote Work'
                     assert page.locator('.development').inner_text() == 'In Development'
-                    with page.expect_download() as download_info:
-                        page.get_by_role('link', name='Download Resume').first.click()
-                    assert download_info.value.suggested_filename.endswith('.pdf')
+                    assert page.get_by_role('link', name='Download Resume').count() == 0
+                    assert page.locator('img.profile-photo').count() == 1
+                contact = page.get_by_role('button', name='Contact Me').first
+                assert contact.is_visible(), route
+                contact.click()
+                dialog = page.get_by_role('dialog')
+                assert dialog.is_visible(), route
+                whatsapp = dialog.get_by_role('link', name='WhatsApp')
+                email = dialog.get_by_role('link', name='Email')
+                assert whatsapp.get_attribute('href') == 'https://wa.me/2348099919990'
+                assert email.get_attribute('href') == 'mailto:enochbenson61@gmail.com'
+                page.keyboard.press('Escape')
+                assert not dialog.is_visible()
                 if route == 'case-studies/bant.html':
                     assert 'MVP — In Development' in page.inner_text('main')
                 elif route != 'index.html':
@@ -89,10 +99,10 @@ try:
             context.close()
         browser.close()
     assert not errors, errors
-    assert (DIST / 'assets/Enoch-Benson-Resume.pdf').read_bytes().startswith(b'%PDF')
+    assert not any('Download Resume' in (DIST / route).read_text(encoding='utf-8') for route in pages)
     report = {'checks': checks, 'browser_errors': errors, 'result': 'passed'}
     (RESULTS / 'report.json').write_text(json.dumps(report, indent=2), encoding='utf-8')
-    print(f'Passed: {len(checks)} page/viewport checks, all local links/assets, mobile navigation, resume download and browser runtime.')
+    print(f'Passed: {len(checks)} page/viewport checks, all local links/assets, mobile navigation, contact dialog and browser runtime.')
 finally:
     server.shutdown()
     server.server_close()
