@@ -16,3 +16,10 @@ document.addEventListener('keydown', event => {
     toggle.focus();
   }
 });
+
+const contactDialog=document.querySelector('#contact-dialog');
+let lastContactTrigger=null;
+document.querySelectorAll('[data-contact-open]').forEach(button=>button.addEventListener('click',()=>{lastContactTrigger=button;contactDialog?.showModal();}));
+document.querySelector('[data-contact-close]')?.addEventListener('click',()=>contactDialog?.close());
+contactDialog?.addEventListener('click',event=>{if(event.target===contactDialog)contactDialog.close();});
+contactDialog?.addEventListener('close',()=>lastContactTrigger?.focus());
