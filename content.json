@@ -13,7 +13,7 @@
       "category": "Flutter mobile app · Social & voice",
       "role": "Creator · Mobile App Developer",
       "url": "https://bant-demo.vercel.app",
-      "image": "",
+      "image": "showcase-bant.svg",
       "color": "purple",
       "personal": true,
       "summary": "A student-focused social and voice-room mobile experience. MVP in development.",
@@ -34,7 +34,7 @@
       "challenge": "The current task is turning a student conversation concept into a usable MVP. Features remain subject to development and iteration.",
       "approach": "Develop the MVP, test the experience and refine the product. The demo is a development preview, not evidence of a completed launch.",
       "status": "MVP — In Development. No user, revenue, traction or launch figures are claimed.",
-      "imageAlt": "BANT mobile app home screen supplied by the developer"
+      "imageAlt": "BANT mobile app home screen showing live voice rooms and start-a-room action"
     },
     {
       "slug": "boostar",
@@ -43,8 +43,8 @@
       "category": "Mobile app · Emergency response",
       "role": "Mobile App Developer · Supporting API systems",
       "url": "https://boostar.ng",
-      "image": "boostar.png",
-      "imageAlt": "BOOSTAR mobile home screen for SOS, school safety and travel alerts",
+      "image": "showcase-boostar.svg",
+      "imageAlt": "BOOSTAR mobile app screen with emergency SOS, safe school and travel alert features",
       "color": "blue",
       "summary": "Mobile emergency alerts, safety reporting, school safety and travel-related workflows.",
       "overview": "BOOSTAR (Boost Alert and Response) helps the public reach emergency numbers, share distress information and report safety concerns. Its public app is complemented by BOOSTAR-M, a controlled monitoring platform for authorised personnel.",
@@ -74,8 +74,8 @@
       "category": "Mobile app · Public safety",
       "role": "Mobile App Developer",
       "url": "https://nalerts.com.ng",
-      "image": "nalerts.jpeg",
-      "imageAlt": "N-Alerts mobile app with SOS, fire alerts, election monitoring and community incident reports",
+      "image": "showcase-nalerts.svg",
+      "imageAlt": "N-Alerts mobile app home screen showing emergency reporting, fire alert and incident information",
       "color": "red",
       "summary": "Mobile emergency reporting, alerts and location-aware public safety workflows.",
       "overview": "N-Alerts is a public safety and emergency reporting platform. Its public website describes a reporting and response ecosystem connecting citizens, communities and relevant agencies.",
@@ -105,7 +105,7 @@
       "category": "Mobile dashboard · Fire data",
       "role": "Mobile UI & data systems contributions",
       "url": "https://nfdrc.ng",
-      "image": "",
+      "image": "showcase-nfdrc.svg",
       "color": "green",
       "summary": "Mobile-accessible incident mapping, fire data reporting and administrative workflows.",
       "overview": "The National Fire Data Repository Center (NFDRC) concerns national fire data collection, repository systems, data management, analytics and reporting. This description is based on the professional information I have provided.",
@@ -127,7 +127,7 @@
       "challenge": "Data systems must make collected information manageable and useful to the teams responsible for reporting and administration.",
       "approach": "My contributions covered backend/database functionality and the administrative and reporting workflows around the data.",
       "status": "Professional project. A mobile dashboard screenshot was provided for this portfolio refresh; operational identifiers and other non-public details are not published.",
-      "imageAlt": "NFDRC mobile dashboard map and recent incident reports supplied by the developer"
+      "imageAlt": "NFDRC mobile dashboard with map of incident alerts, recent reports and modules"
     },
     {
       "slug": "nfec",
